@@ -5,4 +5,6 @@ from django.shortcuts import render
 
 # Create your views here.
 def index(request):
-    return HttpResponse("Hello there This is my first Django Page")
+    return HttpResponse("<h1 align='center'>Hello there This is my first Django Page</h1>")
+def second(request):
+    return HttpResponse('This is the second page')
